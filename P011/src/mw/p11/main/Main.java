@@ -14,6 +14,8 @@ public class Main {
         for (Entry<Object, Object> prop : props.entrySet()) {
             System.out.println(prop.getKey().toString() + "=" + prop.getValue().toString());
         }
+        
+//        Map<Object,Object> attrbs = Attributes.
     }
 
 }
