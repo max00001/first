@@ -1,0 +1,35 @@
+
+
+D:\maxwhite\Projects\Handmade>javac MyClass2.java
+
+
+D:\maxwhite\Projects\Handmade>javac MyClass3.java
+
+
+D:\maxwhite\Projects\Handmade>jar -cfe MyClass2.jar MyClass2 MyClass2.class
+
+
+D:\maxwhite\Projects\Handmade>java -jar MyClass2.jar nnn
+Hello nnn!
+
+D:\maxwhite\Projects\Handmade>javac MyClass.java
+
+
+D:\maxwhite\Projects\Handmade>java MyClass.class
+Error: Could not find or load main class MyClass.class
+
+D:\maxwhite\Projects\Handmade>java MyClass
+Hello world!
+
+D:\maxwhite\Projects\Handmade>java MyClass2
+Hello world! (no new word is provided)
+
+D:\maxwhite\Projects\Handmade>java MyClass2 nnm
+Hello nnm!
+
+D:\maxwhite\Projects\Handmade>java MyClass3
+Your name...
+dsklkhjad
+Hello dsklkhjad!
+
+D:\maxwhite\Projects\Handmade>
