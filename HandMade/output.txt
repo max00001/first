@@ -1,5 +1,4 @@
 
-
 D:\maxwhite\Projects\Handmade>javac MyClass2.java
 
 
@@ -33,3 +32,14 @@ dsklkhjad
 Hello dsklkhjad!
 
 D:\maxwhite\Projects\Handmade>
+
+
+D:\maxwhite\Projects3\HandMade>javac MyClass3.java
+
+
+D:\maxwhite\Projects3\HandMade>java MyClass3
+What is your name?
+üüü
+Hello üüü!
+
+
