@@ -1,4 +1,6 @@
 # first
 for training purposes 1113
+new line for a branch "aFeature"
+the second line for a new branch - aFeature
 
-a line for the master
+and a new line introduced by the merge tool
