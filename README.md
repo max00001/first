@@ -6,3 +6,6 @@ the second line for a new branch - aFeature
 and a new line introduced by the merge tool
 
 a line added after the first merge
+a line added to the master
+some more changes
+
