@@ -1,0 +1,7 @@
+this is a simple text file
+created to check if the prigram works fine
+there are several lines in it
+this line is forth
+an there are some more
+есть и русский текст, чтобы проверить работу с кодировкой
+и еще одна строка
