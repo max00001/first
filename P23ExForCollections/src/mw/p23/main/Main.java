@@ -11,6 +11,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 
 public class Main {
@@ -48,8 +49,7 @@ public class Main {
             linesTotalToOut = 1;
         }
         
-        try (BufferedReader br = new BufferedReader(new FileReader(filename.toString()
-                ))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
               
             List<String> strList = new ArrayList<String>(linesInFile);
             String aLine;
@@ -59,9 +59,11 @@ public class Main {
             if (linesTotalToOut > strList.size()) {
                 linesTotalToOut = strList.size();
             }
-            Collections.shuffle(strList);
-            for (String string : strList.subList(0, linesTotalToOut)) {
-                System.out.println(string);
+            
+            Random rnd = new Random();
+            
+            for (int i=0; i<linesTotalToOut; i++){
+                System.out.println(strList.get(rnd.nextInt(strList.size())));
             }
         } 
 //        FileNotFoundException will be processed as IOException
